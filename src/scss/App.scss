@@ -10,7 +10,7 @@ body {
 
 .App {
     background: rgb(255,177,153);
-    background: linear-gradient(0deg, rgba(255,177,153,1) 0%, rgba(255,8,68,1) 76%);
+    background: linear-gradient(0deg, $bg-gradient-bot 0%, $bg-gradient-top 76%);
     width: 100vw;
     height: 100vh;
 
@@ -20,3 +20,5 @@ body {
         background-color: $bg-darken;
     }
 }
+
+@import './info/info';

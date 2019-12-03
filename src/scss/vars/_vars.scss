@@ -1,3 +1,15 @@
 /* Colors */
+    // Background
+    $bg-gradient-top: rgba(255,8,68,1);
+    $bg-gradient-bot: rgba(255,177,153,1);
+    $bg-darken: rgba(0, 0, 0, 0.25);
 
-$bg-darken: rgba(0, 0, 0, 0.25);
+
+
+/* Info */
+
+$info-icon-font-size: 3rem;
+
+$info-icon-opacity: 0.6;
+$info-icon-opacity-hover: 1;
+$info-icon-opacity-hover-duration: 0.25s;
