@@ -4,7 +4,7 @@
     $bg-gradient-bot: rgba(255,177,153,1);
     $bg-darken: rgba(0, 0, 0, 0.25);
 
-
+$font-color: #FFFFFF;
 
 /* Info */
 
@@ -13,3 +13,9 @@ $info-icon-font-size: 3rem;
 $info-icon-opacity: 0.6;
 $info-icon-opacity-hover: 1;
 $info-icon-opacity-hover-duration: 0.25s;
+
+/* Search Bar */
+$search-bar-border-color: white;
+
+$input-font-size: 1.4rem;
+$input-icon-font-size: 2rem;
