@@ -10,9 +10,7 @@ import { shallow } from 'enzyme';
 
 describe('<Info/>', () => {
     it('renders without crashing', () => {
-        const div = document.createElement('div');
-        ReactDOM.render(<Info/>, div);
-        ReactDOM.unmountComponentAtNode(div);
+      const wrapper = shallow(<Info />);
       });
 
     it('renders two <i> elements', () => {
